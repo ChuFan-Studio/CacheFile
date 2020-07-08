@@ -33,9 +33,15 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+    
     - name: Cache
       id: List
       uses: actions/cache@v2.0.0
       with:
         path: Config.yaml
         key: os-ubuntu-app-config
+
+    - name: Echo Cache file content
+      id: echo-cache
+      run: |
+        cat Config.yaml
