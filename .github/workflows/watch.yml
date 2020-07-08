@@ -33,6 +33,7 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+        cat Config.yaml
     
     - name: Cache
       id: List
