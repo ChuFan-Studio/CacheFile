@@ -8,7 +8,7 @@ on:
   watch:
     types: started
   push:
-    branches: [ master ]
+    branches: [ cache ]
   pull_request:
     branches: [ master ]
 
