@@ -34,6 +34,7 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
         cat Config.yaml
+        cat $GITHUB_WORKSPACE/esp/a
     
     - name: Cache
       id: List
