@@ -35,6 +35,7 @@ jobs:
         echo test, and deploy your project.
         cat Config.yaml
         cat $GITHUB_WORKSPACE/esp/a
+        pwd
     
     - name: Cache
       id: List
@@ -43,7 +44,6 @@ jobs:
         path: |
           Config.yaml
           $GITHUB_WORKSPACE/esp/a
-          pwd
         key: os-ubuntu-app-config
 
     - name: Echo Cache file content
