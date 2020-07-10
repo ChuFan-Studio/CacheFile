@@ -43,6 +43,7 @@ jobs:
         path: |
           Config.yaml
           $GITHUB_WORKSPACE/esp/a
+          pwd
         key: os-ubuntu-app-config
 
     - name: Echo Cache file content
