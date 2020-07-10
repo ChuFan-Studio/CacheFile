@@ -43,7 +43,7 @@ jobs:
       with:
         path: |
           Config.yaml
-          $GITHUB_WORKSPACE/esp/a
+          /home/runner/work/CacheFile/CacheFile/esp/a
         key: os-ubuntu-app-config
 
     - name: Echo Cache file content
